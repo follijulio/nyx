@@ -1,0 +1,41 @@
+{
+  "name": "@nyx-ui/cli",
+  "version": "0.1.0",
+  "description": "Neo-brutalist React component source installer",
+  "keywords": [
+    "react",
+    "tailwindcss",
+    "components",
+    "neo-brutalism",
+    "cli",
+    "shadcn"
+  ],
+  "license": "MIT",
+  "type": "module",
+  "bin": {
+    "nyx": "./bin/nyx.mjs"
+  },
+  "files": [
+    "bin",
+    "registry",
+    "tailwind.config.ts",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=20.9"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "registry:build": "node scripts/generate-registry.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "docs:dev": "npm run registry:build && npm --prefix docs-site run dev",
+    "docs:build": "npm run registry:build && npm --prefix docs-site run build && npm --prefix docs-site run publish:static"
+  },
+  "dependencies": {
+    "commander": "^14.0.0",
+    "prompts": "^2.4.2",
+    "semver": "^7.8.5"
+  }
+}

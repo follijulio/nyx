@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charSet="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="/nyx/_next/static/chunks/0d5bccc6b4iky.css" data-precedence="next" />
+  <link rel="preload" as="script" fetchPriority="low" href="/nyx/_next/static/chunks/1inwntv0b4r-7.js" />
+  <script src="/nyx/_next/static/chunks/38eod3lh3twz1.js" async=""></script>
+  <script src="/nyx/_next/static/chunks/0bma92pht_c97.js" async=""></script>
+  <script src="/nyx/_next/static/chunks/turbopack-3-k6tev4zplxd.js" async=""></script>
+  <script src="/nyx/_next/static/chunks/3fntmmi971322.js" async=""></script>
+  <script src="/nyx/_next/static/chunks/36p2awrr1k85x.js" async=""></script>
+  <title>Nyx UI — componentes com peso</title>
+  <meta name="description"
+    content="Uma biblioteca Neo-Brutalista para React. Instale componentes editáveis direto no seu projeto com a CLI Nyx." />
+  <script src="/nyx/_next/static/chunks/0cz1d0mv5g_q7.js" noModule=""></script>
+</head>
+
+<body>
+  <div hidden=""><!--$--><!--/$--></div>
+  <main class="mx-auto w-[min(1240px,calc(100%-36px))] pb-10 sm:w-[min(1240px,calc(100%-64px))]">
+    <header class="flex min-h-20 items-center justify-between gap-4"><a
+        class="focus-nyx text-2xl font-black tracking-[-0.08em]" href="#inicio" aria-label="Nyx UI, início">Nyx<span
+          aria-hidden="true" class="font-medium">✳</span></a><span
+        class="border-2 border-ink bg-secondary px-3 py-1.5 text-xs font-black sm:text-sm">React · TypeScript · Tailwind
+        CSS</span></header>
+    <section id="inicio" class="pb-12 pt-12 sm:pb-16 sm:pt-20">
+      <p class="mb-5 text-xs font-black uppercase tracking-[0.16em] sm:text-sm">Código seu. Personalize à vontade.</p>
+      <h1 class="max-w-5xl text-[clamp(3.5rem,10.3vw,8.5rem)] font-black leading-[0.82] tracking-[-0.09em]"><span
+          class="block">Componentes</span><span class="mt-3 block sm:mt-5">com<!-- --> <span
+            class="inline-block bg-primary px-[0.12em] pb-[0.08em] pr-[0.18em] text-primary-foreground shadow-nyx">peso.</span></span>
+      </h1>
+      <p class="mt-8 max-w-2xl text-base leading-7 text-muted-foreground sm:mt-9 sm:text-xl sm:leading-8">Uma biblioteca
+        Neo-Brutalista para React, distribuída como código-fonte. A CLI copia os componentes para o seu projeto: bordas
+        sólidas, sombras duras e interações que parecem físicas.</p>
+      <div class="mt-6 flex flex-wrap gap-3"><a
+          class="physical-button focus-nyx inline-flex min-h-11 items-center justify-center border-2 border-ink px-4 py-2 text-sm font-black shadow-nyx-sm bg-accent text-ink"
+          href="#instalacao">Começar a instalar ↓</a><a
+          class="physical-button focus-nyx inline-flex min-h-11 items-center justify-center border-2 border-ink px-4 py-2 text-sm font-black shadow-nyx-sm bg-card text-ink"
+          href="#componentes">Ver componentes</a></div>
+      <div class="mt-8 max-w-2xl">
+        <div class="flex min-w-0 items-center justify-between gap-3 border-2 border-ink bg-card p-3 shadow-nyx-sm"><code
+            class="min-w-0 break-all text-sm font-semibold sm:text-base">npx @nyx-ui/cli init</code><button
+            class="physical-button focus-nyx border-2 border-ink bg-accent px-3 py-1.5 text-sm font-black" type="button"
+            aria-label="Copiar: npx @nyx-ui/cli init">Copiar</button></div>
+      </div>
+    </section>
+    <section aria-label="Como funciona" class="grid gap-4 md:grid-cols-3">
+      <article class="border-2 border-ink bg-card p-5 shadow-nyx-sm">
+        <p class="text-xs font-black tracking-widest text-muted-foreground">PASSO <!-- -->01</p>
+        <h2 class="mt-1 text-xl font-black">Configure</h2>
+        <p class="mt-1 text-sm leading-6 text-muted-foreground">Rode init na raiz do seu app React ou Next.js.</p>
+      </article>
+      <article class="border-2 border-ink bg-card p-5 shadow-nyx-sm">
+        <p class="text-xs font-black tracking-widest text-muted-foreground">PASSO <!-- -->02</p>
+        <h2 class="mt-1 text-xl font-black">Escolha</h2>
+        <p class="mt-1 text-sm leading-6 text-muted-foreground">Adicione somente os componentes que o projeto precisa.
+        </p>
+      </article>
+      <article class="border-2 border-ink bg-card p-5 shadow-nyx-sm">
+        <p class="text-xs font-black tracking-widest text-muted-foreground">PASSO <!-- -->03</p>
+        <h2 class="mt-1 text-xl font-black">Personalize</h2>
+        <p class="mt-1 text-sm leading-6 text-muted-foreground">Edite os arquivos TSX diretamente no seu projeto.</p>
+      </article>
+    </section>
+    <section id="componentes" class="scroll-mt-8 pt-16 sm:pt-20">
+      <div class="mb-5 flex flex-col justify-between gap-2 border-b-[3px] border-ink pb-3 sm:flex-row sm:items-end">
+        <h2 class="text-3xl font-black tracking-[-0.06em] sm:text-4xl">Peças do kit</h2>
+        <p class="text-sm font-medium text-muted-foreground">65 componentes. Código aberto, exemplos reais.</p>
+      </div>
+      <div>
+        <div class="mb-5 flex flex-col gap-3 sm:flex-row sm:items-center"><label
+            class="flex min-w-0 flex-1 items-center gap-3 border-2 border-ink bg-card px-3 shadow-nyx-sm"><span
+              aria-hidden="true" class="text-xl">⌕</span><input type="search" aria-label="Buscar componentes"
+              placeholder="Buscar componente…" class="focus-nyx h-12 min-w-0 flex-1 bg-transparent text-sm outline-none"
+              value="" /></label><select aria-label="Filtrar categoria"
+            class="focus-nyx h-12 border-2 border-ink bg-card px-3 text-sm font-bold">
+            <option value="" selected="">Todas as categorias</option>
+            <option>Interação</option>
+            <option>Feedback</option>
+            <option>Sobreposições</option>
+            <option>Layout</option>
+            <option>Formulários</option>
+            <option>Conteúdo</option>
+            <option>Navegação</option>
+            <option>Mensagens</option>
+            <option>Dados</option>
+          </select><span class="text-xs font-black" aria-live="polite">65<!-- --> / <!-- -->65<!-- -->
+            componentes</span></div>
+        <div class="grid items-start gap-5 lg:grid-cols-[240px_minmax(0,1fr)]">
+          <nav aria-label="Catálogo de componentes"
+            class="max-h-72 overflow-y-auto border-2 border-ink bg-card lg:max-h-[660px]">
+            <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-1"><button type="button" aria-current="true"
+                class="focus-nyx border-b border-ink/20 px-4 py-3 text-left text-sm font-bold bg-accent">Accordion</button><button
+                type="button"
+                class="focus-nyx border-b border-ink/20 px-4 py-3 text-left text-sm font-bold hover:bg-muted">Alert</button><button
+                type="button"
+                class="focus-nyx border-b border-ink/20 px-4 py-3 text-left text-sm font-bold hover:bg-muted">Alert
+                Dialog</button><button type="button"
+                class="focus-nyx border-b border-ink/20 px-4 py-3 text-left text-sm font-bold hover:bg-muted">Aspect
+                Ratio</button><button type="button"
+                class="focus-nyx border-b border-ink/20 px-4 py-3 text-left text-sm font-bold hover:bg-muted">Attachment</button><button
+                type="button"
+                class="focus-nyx border-b border-ink/20 px-4 py-3 text-left text-sm font-bold hover:bg-muted">Avatar</button><button
+                type="button"
+                class="focus-nyx border-b border-ink/20 px-4 py-3 text-left text-sm font-bold hover:bg-muted">Badge</button><button
+                type="button"
+                class="focus-nyx border-b border-ink/20 px-4 py-3 text-left text-sm font-bold hover:bg-muted">Breadcrumb</button><button
+                type="button"
+                class="focus-nyx border-b border-ink/20 px-4 py-3 text-left text-sm font-bold hover:bg-muted">Bubble</button><button
+                type="button"
+                class="focus-nyx border-b border-ink/20 px-4 py-3 text-left text-sm font-bold hover:bg-muted">Button</button><button
+                type="button"
+                class="focus-nyx border-b border-ink/20 px-4 py-3 text-left text-sm font-bold hover:bg-muted">Button
+                Group</button><button type="button"
+                class="focus-nyx border-b border-ink/20 px-4 py-3 text-left text-sm font-bold hover:bg-muted">Calendar</button><button
+                type="button"
+                class="focus-nyx border-b border-ink/20 px-4 py-3 text-left text-sm font-bold hover:bg-muted">Card</button><button
+                type="button"
+                class="focus-nyx border-b border-ink/20 px-4 py-3 text-left text-sm font-bold hover:bg-muted">Carousel</button><button
+                type="button"
+                class="focus-nyx border-b border-ink/20 px-4 py-3 text-left text-sm font-bold hover:bg-muted">Chart</button><button
+                type="button"
+                class="focus-nyx border-b border-ink/20 px-4 py-3 text-left text-sm font-bold hover:bg-muted">Checkbox</button><button
+                type="button"
+                class="focus-nyx border-b border-ink/20 px-4 py-3 text-left text-sm font-bold hover:bg-muted">Collapsible</button><button
+                type="button"
+                class="focus-nyx border-b border-ink/20 px-4 py-3 text-left text-sm font-bold hover:bg-muted">Combobox</button><button
+                type="button"
+                class="focus-nyx border-b border-ink/20 px-4 py-3 text-left text-sm font-bold hover:bg-muted">Command</button><button
+                type="button"
+                class="focus-nyx border-b border-ink/20 px-4 py-3 text-left text-sm font-bold hover:bg-muted">Context
+                Menu</button><button type="button"
+                class="focus-nyx border-b border-ink/20 px-4 py-3 text-left text-sm font-bold hover:bg-muted">Data
+                Table</button><button type="button"
+                class="focus-nyx border-b border-ink/20 px-4 py-3 text-left text-sm font-bold hover:bg-muted">Date
+                Picker</button><button type="button"
+                class="focus-nyx border-b border-ink/20 px-4 py-3 text-left text-sm font-bold hover:bg-muted">Dialog</button><button
+                type="button"
+                class="focus-nyx border-b border-ink/20 px-4 py-3 text-left text-sm font-bold hover:bg-muted">Direction</button><button
+                type="button"
+                class="focus-nyx border-b border-ink/20 px-4 py-3 text-left text-sm font-bold hover:bg-muted">Drawer</button><button
+                type="button"
+                class="focus-nyx border-b border-ink/20 px-4 py-3 text-left text-sm font-bold hover:bg-muted">Dropdown
+                Menu</button><button type="button"
+                class="focus-nyx border-b border-ink/20 px-4 py-3 text-left text-sm font-bold hover:bg-muted">Empty</button><button
+                type="button"
+                class="focus-nyx border-b border-ink/20 px-4 py-3 text-left text-sm font-bold hover:bg-muted">Field</button><button
+                type="button"
+                class="focus-nyx border-b border-ink/20 px-4 py-3 text-left text-sm font-bold hover:bg-muted">Hover
+                Card</button><button type="button"
+                class="focus-nyx border-b border-ink/20 px-4 py-3 text-left text-sm font-bold hover:bg-muted">Input</button><button
+                type="button"
+                class="focus-nyx border-b border-ink/20 px-4 py-3 text-left text-sm font-bold hover:bg-muted">Input
+                Group</button><button type="button"
+                class="focus-nyx border-b border-ink/20 px-4 py-3 text-left text-sm font-bold hover:bg-muted">Input
+                OTP</button><button type="button"
+                class="focus-nyx border-b border-ink/20 px-4 py-3 text-left text-sm font-bold hover:bg-muted">Item</button><button
+                type="button"
+                class="focus-nyx border-b border-ink/20 px-4 py-3 text-left text-sm font-bold hover:bg-muted">Kbd</button><button
+                type="button"
+                class="focus-nyx border-b border-ink/20 px-4 py-3 text-left text-sm font-bold hover:bg-muted">Label</button><button
+                type="button"
+                class="focus-nyx border-b border-ink/20 px-4 py-3 text-left text-sm font-bold hover:bg-muted">Marker</button><button
+                type="button"
+                class="focus-nyx border-b border-ink/20 px-4 py-3 text-left text-sm font-bold hover:bg-muted">Menubar</button><button
+                type="button"
+                class="focus-nyx border-b border-ink/20 px-4 py-3 text-left text-sm font-bold hover:bg-muted">Message</button><button
+                type="button"
+                class="focus-nyx border-b border-ink/20 px-4 py-3 text-left text-sm font-bold hover:bg-muted">Message
+                Scroller</button><button type="button"
+                class="focus-nyx border-b border-ink/20 px-4 py-3 text-left text-sm font-bold hover:bg-muted">Native
+                Select</button><button type="button"
+                class="focus-nyx border-b border-ink/20 px-4 py-3 text-left text-sm font-bold hover:bg-muted">Navigation
+                Menu</button><button type="button"
+                class="focus-nyx border-b border-ink/20 px-4 py-3 text-left text-sm font-bold hover:bg-muted">Pagination</button><button
+                type="button"
+                class="focus-nyx border-b border-ink/20 px-4 py-3 text-left text-sm font-bold hover:bg-muted">Popover</button><button
+                type="button"
+                class="focus-nyx border-b border-ink/20 px-4 py-3 text-left text-sm font-bold hover:bg-muted">Progress</button><button
+                type="button"
+                class="focus-nyx border-b border-ink/20 px-4 py-3 text-left text-sm font-bold hover:bg-muted">Questionnaire</button><button
+                type="button"
+                class="focus-nyx border-b border-ink/20 px-4 py-3 text-left text-sm font-bold hover:bg-muted">Radio
+                Group</button><button type="button"
+                class="focus-nyx border-b border-ink/20 px-4 py-3 text-left text-sm font-bold hover:bg-muted">Resizable</button><button
+                type="button"
+                class="focus-nyx border-b border-ink/20 px-4 py-3 text-left text-sm font-bold hover:bg-muted">Scroll
+                Area</button><button type="button"
+                class="focus-nyx border-b border-ink/20 px-4 py-3 text-left text-sm font-bold hover:bg-muted">Search</button><button
+                type="button"
+                class="focus-nyx border-b border-ink/20 px-4 py-3 text-left text-sm font-bold hover:bg-muted">Select</button><button
+                type="button"
+                class="focus-nyx border-b border-ink/20 px-4 py-3 text-left text-sm font-bold hover:bg-muted">Separator</button><button
+                type="button"
+                class="focus-nyx border-b border-ink/20 px-4 py-3 text-left text-sm font-bold hover:bg-muted">Sheet</button><button
+                type="button"
+                class="focus-nyx border-b border-ink/20 px-4 py-3 text-left text-sm font-bold hover:bg-muted">Sidebar</button><button
+                type="button"
+                class="focus-nyx border-b border-ink/20 px-4 py-3 text-left text-sm font-bold hover:bg-muted">Skeleton</button><button
+                type="button"
+                class="focus-nyx border-b border-ink/20 px-4 py-3 text-left text-sm font-bold hover:bg-muted">Slider</button><button
+                type="button"
+                class="focus-nyx border-b border-ink/20 px-4 py-3 text-left text-sm font-bold hover:bg-muted">Spinner</button><button
+                type="button"
+                class="focus-nyx border-b border-ink/20 px-4 py-3 text-left text-sm font-bold hover:bg-muted">Switch</button><button
+                type="button"
+                class="focus-nyx border-b border-ink/20 px-4 py-3 text-left text-sm font-bold hover:bg-muted">Table</button><button
+                type="button"
+                class="focus-nyx border-b border-ink/20 px-4 py-3 text-left text-sm font-bold hover:bg-muted">Tabs</button><button
+                type="button"
+                class="focus-nyx border-b border-ink/20 px-4 py-3 text-left text-sm font-bold hover:bg-muted">Textarea</button><button
+                type="button"
+                class="focus-nyx border-b border-ink/20 px-4 py-3 text-left text-sm font-bold hover:bg-muted">Toast</button><button
+                type="button"
+                class="focus-nyx border-b border-ink/20 px-4 py-3 text-left text-sm font-bold hover:bg-muted">Toggle</button><button
+                type="button"
+                class="focus-nyx border-b border-ink/20 px-4 py-3 text-left text-sm font-bold hover:bg-muted">Toggle
+                Group</button><button type="button"
+                class="focus-nyx border-b border-ink/20 px-4 py-3 text-left text-sm font-bold hover:bg-muted">Tooltip</button><button
+                type="button"
+                class="focus-nyx border-b border-ink/20 px-4 py-3 text-left text-sm font-bold hover:bg-muted">Typography</button>
+            </div>
+          </nav>
+          <article class="min-w-0 border-2 border-ink bg-card shadow-nyx" aria-labelledby="component-title">
+            <header class="border-b-2 border-ink bg-muted p-5 sm:p-6">
+              <p class="mb-2 text-xs font-black uppercase tracking-widest">Interação</p>
+              <h3 id="component-title" class="text-3xl font-black tracking-tight">Accordion</h3>
+              <p class="mt-2 text-sm leading-6 text-muted-foreground">Conteúdo expansível com navegação por teclado.</p>
+              <div class="mt-4 flex min-w-0 items-center justify-between gap-3 border-2 border-ink bg-card p-3"><code
+                  class="min-w-0 break-all text-xs font-bold sm:text-sm">npx @nyx-ui/cli add accordion</code><button
+                  type="button"
+                  class="focus-nyx shrink-0 border-2 border-ink bg-accent px-3 py-2 text-xs font-black">Copiar</button>
+              </div>
+            </header>
+            <div role="tablist" aria-label="Visualização do componente" class="flex border-b-2 border-ink"><button
+                type="button" role="tab" id="catalog-tab-preview" tabindex="0" aria-selected="true"
+                aria-controls="catalog-panel"
+                class="focus-nyx flex-1 border-r-2 border-ink px-2 py-3 text-xs font-black last:border-r-0 sm:text-sm bg-accent">Exemplo</button><button
+                type="button" role="tab" id="catalog-tab-usage" tabindex="-1" aria-selected="false"
+                aria-controls="catalog-panel"
+                class="focus-nyx flex-1 border-r-2 border-ink px-2 py-3 text-xs font-black last:border-r-0 sm:text-sm hover:bg-muted">Como
+                usar</button><button type="button" role="tab" id="catalog-tab-source" tabindex="-1"
+                aria-selected="false" aria-controls="catalog-panel"
+                class="focus-nyx flex-1 border-r-2 border-ink px-2 py-3 text-xs font-black last:border-r-0 sm:text-sm hover:bg-muted">Código-fonte</button>
+            </div>
+            <div role="tabpanel" id="catalog-panel" aria-labelledby="catalog-tab-preview" tabindex="0"
+              class="focus-nyx">
+              <div class="flex min-h-80 min-w-0 items-center justify-center overflow-x-auto p-5 sm:p-8"
+                data-component-preview="accordion">
+                <div class="w-full max-w-md" data-orientation="vertical">
+                  <div data-state="open" data-orientation="vertical"
+                    class="border-2 border-border bg-card [&amp;+&amp;]:border-t-0">
+                    <h3 data-orientation="vertical" data-state="open" class="flex"><button type="button"
+                        aria-controls="radix-_R_2pqkavb_" aria-expanded="true" data-state="open"
+                        data-orientation="vertical" id="radix-_R_pqkavb_"
+                        class="group flex flex-1 items-center justify-between gap-4 px-4 py-4 text-left font-bold transition-colors hover:bg-muted focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-inset focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50"
+                        data-radix-collection-item="">O que é o Nyx?<svg xmlns="http://www.w3.org/2000/svg" width="24"
+                          height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                          stroke-linecap="round" stroke-linejoin="round"
+                          class="lucide lucide-chevron-down size-4 shrink-0 transition-transform motion-reduce:transition-none group-data-[state=open]:rotate-180"
+                          aria-hidden="true">
+                          <path d="m6 9 6 6 6-6"></path>
+                        </svg></button></h3>
+                    <div data-state="open" id="radix-_R_2pqkavb_" role="region" aria-labelledby="radix-_R_pqkavb_"
+                      data-orientation="vertical" class="overflow-hidden text-sm"
+                      style="--radix-accordion-content-height:var(--radix-collapsible-content-height);--radix-accordion-content-width:var(--radix-collapsible-content-width)">
+                      <div class="px-4 pb-4 leading-relaxed">Componentes com personalidade, acessíveis e prontos para
+                        editar no seu projeto.</div>
+                    </div>
+                  </div>
+                  <div data-state="closed" data-orientation="vertical"
+                    class="border-2 border-border bg-card [&amp;+&amp;]:border-t-0">
+                    <h3 data-orientation="vertical" data-state="closed" class="flex"><button type="button"
+                        aria-expanded="false" data-state="closed" data-orientation="vertical" id="radix-_R_19qkavb_"
+                        class="group flex flex-1 items-center justify-between gap-4 px-4 py-4 text-left font-bold transition-colors hover:bg-muted focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-inset focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50"
+                        data-radix-collection-item="">Posso mudar o código?<svg xmlns="http://www.w3.org/2000/svg"
+                          width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                          stroke-linecap="round" stroke-linejoin="round"
+                          class="lucide lucide-chevron-down size-4 shrink-0 transition-transform motion-reduce:transition-none group-data-[state=open]:rotate-180"
+                          aria-hidden="true">
+                          <path d="m6 9 6 6 6-6"></path>
+                        </svg></button></h3>
+                    <div data-state="closed" id="radix-_R_39qkavb_" hidden="" role="region"
+                      aria-labelledby="radix-_R_19qkavb_" data-orientation="vertical" class="overflow-hidden text-sm"
+                      style="--radix-accordion-content-height:var(--radix-collapsible-content-height);--radix-accordion-content-width:var(--radix-collapsible-content-width)">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <footer class="border-t-2 border-ink p-4 text-xs leading-6 text-muted-foreground">
+              <p><strong class="text-ink">Pacotes:</strong> <code
+                  class="mr-2 break-all">@radix-ui/react-accordion</code><code
+                  class="mr-2 break-all">lucide-react</code>.</p>
+              <p>A CLI resolve as dependências. O arquivo TSX fica no seu projeto, pronto para editar.</p>
+            </footer>
+          </article>
+        </div>
+      </div>
+    </section>
+    <section id="instalacao" class="scroll-mt-8 pt-16 sm:pt-20">
+      <div class="border-2 border-ink bg-secondary p-5 shadow-nyx sm:p-8">
+        <p class="text-xs font-black uppercase tracking-[0.16em]">Instale. Depois, é seu.</p>
+        <h2 class="mt-2 text-3xl font-black tracking-[-0.06em] sm:text-5xl">Comece pelo seu terminal.</h2>
+        <p class="mt-3 max-w-3xl leading-7 text-muted-foreground">Use Node.js 20.9 ou superior na raiz do seu projeto
+          React ou Next.js. O comando <code>init</code> cria <code>nyx.json</code>, adiciona o tema ao CSS global e
+          prepara o utilitário <code>cn</code>.</p>
+        <div class="mt-6 grid gap-3 sm:max-w-2xl">
+          <div class="flex min-w-0 items-center justify-between gap-3 border-2 border-ink bg-card p-3 shadow-nyx-sm">
+            <code class="min-w-0 break-all text-sm font-semibold sm:text-base">npx @nyx-ui/cli init</code><button
+              class="physical-button focus-nyx border-2 border-ink bg-accent px-3 py-1.5 text-sm font-black"
+              type="button" aria-label="Copiar: npx @nyx-ui/cli init">Copiar</button></div>
+          <div class="flex min-w-0 items-center justify-between gap-3 border-2 border-ink bg-card p-3 shadow-nyx-sm">
+            <code
+              class="min-w-0 break-all text-sm font-semibold sm:text-base">npx @nyx-ui/cli add button card input</code><button
+              class="physical-button focus-nyx border-2 border-ink bg-accent px-3 py-1.5 text-sm font-black"
+              type="button" aria-label="Copiar: npx @nyx-ui/cli add button card input">Copiar</button></div>
+        </div>
+        <div class="mt-6 grid gap-5 border-t-2 border-ink pt-5 md:grid-cols-2">
+          <div>
+            <h3 class="font-black">Outros gerenciadores</h3>
+            <p class="mt-1 text-sm leading-6 text-muted-foreground">Bun:
+              <code>bunx @nyx-ui/cli add button</code><br />pnpm:
+              <code>pnpm dlx @nyx-ui/cli add button</code><br />Yarn: <code>yarn dlx @nyx-ui/cli add button</code></p>
+          </div>
+          <div>
+            <h3 class="font-black">O que a CLI prepara</h3>
+            <p class="mt-1 text-sm leading-6 text-muted-foreground"><code>nyx.json</code>, tokens do tema,
+              utilitário<!-- --> <code>cn</code> e arquivos TSX em <code>src/components/ui</code>. Componentes são seus
+              para editar.</p>
+          </div>
+        </div>
+        <div class="mt-5 border-2 border-ink bg-card p-4">
+          <h3 class="font-black">Dependências opcionais por componente</h3>
+          <p class="mt-2 text-sm leading-6 text-muted-foreground">Cada componente mostra seus pacotes e arquivos
+            relacionados no catálogo. Componentes interativos usam primitivas acessíveis do Radix UI; gráficos usam
+            Recharts e o calendário usa React Day Picker.</p>
+          <div class="mt-3 grid gap-3">
+            <div class="flex min-w-0 items-center justify-between gap-3 border-2 border-ink bg-card p-3 shadow-nyx-sm">
+              <code class="min-w-0 break-all text-sm font-semibold sm:text-base">npx @nyx-ui/cli list</code><button
+                class="physical-button focus-nyx border-2 border-ink bg-accent px-3 py-1.5 text-sm font-black"
+                type="button" aria-label="Copiar: npx @nyx-ui/cli list">Copiar</button></div>
+            <div class="flex min-w-0 items-center justify-between gap-3 border-2 border-ink bg-card p-3 shadow-nyx-sm">
+              <code class="min-w-0 break-all text-sm font-semibold sm:text-base">npx @nyx-ui/cli add --all</code><button
+                class="physical-button focus-nyx border-2 border-ink bg-accent px-3 py-1.5 text-sm font-black"
+                type="button" aria-label="Copiar: npx @nyx-ui/cli add --all">Copiar</button></div>
+          </div>
+          <p class="mt-3 text-sm text-muted-foreground">A CLI detecta npm, pnpm, Yarn ou Bun pelo lockfile e pede
+            confirmação para instalar dependências ausentes. Use<!-- --> <code>--yes</code> para aceitar a instalação
+            e<!-- --> <code>--overwrite</code> para substituir arquivos existentes.</p>
+        </div>
+        <p class="mt-4 text-xs leading-5 text-muted-foreground">Tailwind 4 usa os mapeamentos CSS em
+          <code>@theme inline</code>. No Tailwind 3, mescle as extensões de<!-- -->
+          <code>registry/tailwind.config.ts</code>; uma configuração existente não é sobrescrita.</p>
+      </div>
+    </section>
+    <footer class="mt-12 border-t-[3px] border-ink py-6 text-sm font-medium text-muted-foreground">Nyx UI · Código
+      aberto para construir sem arredondar as arestas.</footer>
+  </main><!--$--><!--/$-->
+  <script src="/nyx/_next/static/chunks/1inwntv0b4r-7.js" id="_R_" async=""></script>
+  <script>(self.__next_f = self.__next_f || []).push([0])</script>
+  <script>self.__next_f.push([1, "1:\"$Sreact.fragment\"\n2:I[39756,[\"/nyx/_next/static/chunks/3fntmmi971322.js\"],\"default\"]\n3:I[37457,[\"/nyx/_next/static/chunks/3fntmmi971322.js\"],\"default\"]\n4:I[47257,[\"/nyx/_next/static/chunks/3fntmmi971322.js\"],\"ClientPageRoot\"]\n5:I[31713,[\"/nyx/_next/static/chunks/3fntmmi971322.js\",\"/nyx/_next/static/chunks/36p2awrr1k85x.js\"],\"default\"]\n8:I[97367,[\"/nyx/_next/static/chunks/3fntmmi971322.js\"],\"OutletBoundary\"]\n9:\"$Sreact.suspense\"\nb:I[97367,[\"/nyx/_next/static/chunks/3fntmmi971322.js\"],\"ViewportBoundary\"]\nd:I[97367,[\"/nyx/_next/static/chunks/3fntmmi971322.js\"],\"MetadataBoundary\"]\nf:I[68027,[\"/nyx/_next/static/chunks/3fntmmi971322.js\"],\"default\",1]\n:HL[\"/nyx/_next/static/chunks/0d5bccc6b4iky.css\",\"style\"]\n"])</script>
+  <script>self.__next_f.push([1, "0:{\"P\":null,\"c\":[\"\",\"\"],\"q\":\"\",\"i\":false,\"f\":[[[\"\",{\"children\":[\"__PAGE__\",{},\"$undefined\",\"$undefined\",4608]},\"$undefined\",\"$undefined\",4624],[[\"$\",\"$1\",\"c\",{\"children\":[[[\"$\",\"link\",\"0\",{\"rel\":\"stylesheet\",\"href\":\"/nyx/_next/static/chunks/0d5bccc6b4iky.css\",\"precedence\":\"next\",\"crossOrigin\":\"$undefined\",\"nonce\":\"$undefined\"}],[\"$\",\"script\",\"script-0\",{\"src\":\"/nyx/_next/static/chunks/3fntmmi971322.js\",\"async\":true,\"nonce\":\"$undefined\"}]],[\"$\",\"html\",null,{\"lang\":\"pt-BR\",\"children\":[\"$\",\"body\",null,{\"children\":[\"$\",\"$L2\",null,{\"parallelRouterKey\":\"children\",\"error\":\"$undefined\",\"errorStyles\":\"$undefined\",\"errorScripts\":\"$undefined\",\"template\":[\"$\",\"$L3\",null,{}],\"templateStyles\":\"$undefined\",\"templateScripts\":\"$undefined\",\"notFound\":[[[\"$\",\"title\",null,{\"children\":\"404: This page could not be found.\"}],[\"$\",\"div\",null,{\"style\":{\"fontFamily\":\"system-ui,\\\"Segoe UI\\\",Roboto,Helvetica,Arial,sans-serif,\\\"Apple Color Emoji\\\",\\\"Segoe UI Emoji\\\"\",\"height\":\"100vh\",\"textAlign\":\"center\",\"display\":\"flex\",\"flexDirection\":\"column\",\"alignItems\":\"center\",\"justifyContent\":\"center\"},\"children\":[\"$\",\"div\",null,{\"children\":[[\"$\",\"style\",null,{\"dangerouslySetInnerHTML\":{\"__html\":\"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}\"}}],[\"$\",\"h1\",null,{\"className\":\"next-error-h1\",\"style\":{\"display\":\"inline-block\",\"margin\":\"0 20px 0 0\",\"padding\":\"0 23px 0 0\",\"fontSize\":24,\"fontWeight\":500,\"verticalAlign\":\"top\",\"lineHeight\":\"49px\"},\"children\":404}],[\"$\",\"div\",null,{\"style\":{\"display\":\"inline-block\"},\"children\":[\"$\",\"h2\",null,{\"style\":{\"fontSize\":14,\"fontWeight\":400,\"lineHeight\":\"49px\",\"margin\":0},\"children\":\"This page could not be found.\"}]}]]}]}]],[]],\"forbidden\":\"$undefined\",\"unauthorized\":\"$undefined\"}]}]}]]}],{\"children\":[[\"$\",\"$1\",\"c\",{\"children\":[[\"$\",\"$L4\",null,{\"Component\":\"$5\",\"serverProvidedParams\":{\"searchParams\":{},\"params\":{},\"promises\":[\"$@6\",\"$@7\"]}}],[[\"$\",\"script\",\"script-0\",{\"src\":\"/nyx/_next/static/chunks/36p2awrr1k85x.js\",\"async\":true,\"nonce\":\"$undefined\"}]],[\"$\",\"$L8\",null,{\"children\":[\"$\",\"$9\",null,{\"name\":\"Next.MetadataOutlet\",\"children\":\"$@a\"}]}]]}],{},null,false,null]},null,false,null],[\"$\",\"$1\",\"h\",{\"children\":[null,[\"$\",\"$Lb\",null,{\"children\":\"$Lc\"}],[\"$\",\"div\",null,{\"hidden\":true,\"children\":[\"$\",\"$Ld\",null,{\"children\":[\"$\",\"$9\",null,{\"name\":\"Next.Metadata\",\"children\":\"$Le\"}]}]}],null]}],false]],\"m\":\"$undefined\",\"G\":[\"$f\",[[\"$\",\"link\",\"0\",{\"rel\":\"stylesheet\",\"href\":\"/nyx/_next/static/chunks/0d5bccc6b4iky.css\",\"precedence\":\"next\",\"crossOrigin\":\"$undefined\",\"nonce\":\"$undefined\"}]]],\"S\":true,\"h\":null,\"r\":\"$undefined\",\"s\":\"$undefined\",\"a\":\"$undefined\",\"l\":\"$undefined\",\"p\":\"$undefined\",\"d\":\"$undefined\",\"b\":\"XF3ODC3ioAUFNDikUtM7Y\"}\n"])</script>
+  <script>self.__next_f.push([1, "6:{}\n7:\"$0:f:0:1:1:children:0:props:children:0:props:serverProvidedParams:params\"\n"])</script>
+  <script>self.__next_f.push([1, "c:[[\"$\",\"meta\",\"0\",{\"charSet\":\"utf-8\"}],[\"$\",\"meta\",\"1\",{\"name\":\"viewport\",\"content\":\"width=device-width, initial-scale=1\"}]]\n"])</script>
+  <script>self.__next_f.push([1, "a:null\ne:[[\"$\",\"title\",\"0\",{\"children\":\"Nyx UI — componentes com peso\"}],[\"$\",\"meta\",\"1\",{\"name\":\"description\",\"content\":\"Uma biblioteca Neo-Brutalista para React. Instale componentes editáveis direto no seu projeto com a CLI Nyx.\"}]]\n"])</script>
+</body>
+
+</html>

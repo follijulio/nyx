@@ -1,0 +1,704 @@
+[
+  {
+    "name": "accordion",
+    "label": "Accordion",
+    "description": "Conteúdo expansível com navegação por teclado.",
+    "category": "Interação",
+    "dependencies": [
+      "@radix-ui/react-accordion",
+      "lucide-react"
+    ],
+    "dependencyVersions": {},
+    "registryDependencies": []
+  },
+  {
+    "name": "alert",
+    "label": "Alert",
+    "description": "Avisos de informação, sucesso e erro.",
+    "category": "Feedback",
+    "dependencies": [
+      "lucide-react"
+    ],
+    "dependencyVersions": {},
+    "registryDependencies": []
+  },
+  {
+    "name": "alert-dialog",
+    "label": "Alert Dialog",
+    "description": "Confirmações com foco e ações explícitas.",
+    "category": "Sobreposições",
+    "dependencies": [
+      "@radix-ui/react-alert-dialog"
+    ],
+    "dependencyVersions": {},
+    "registryDependencies": [
+      "button"
+    ]
+  },
+  {
+    "name": "aspect-ratio",
+    "label": "Aspect Ratio",
+    "description": "Proporção consistente para imagens e vídeos.",
+    "category": "Layout",
+    "dependencies": [],
+    "dependencyVersions": {},
+    "registryDependencies": []
+  },
+  {
+    "name": "attachment",
+    "label": "Attachment",
+    "description": "Seleção e apresentação de arquivos anexados.",
+    "category": "Formulários",
+    "dependencies": [],
+    "dependencyVersions": {},
+    "registryDependencies": []
+  },
+  {
+    "name": "avatar",
+    "label": "Avatar",
+    "description": "Imagem de perfil com fallback.",
+    "category": "Conteúdo",
+    "dependencies": [
+      "@radix-ui/react-avatar"
+    ],
+    "dependencyVersions": {},
+    "registryDependencies": []
+  },
+  {
+    "name": "badge",
+    "label": "Badge",
+    "description": "Etiquetas compactas para estados e categorias.",
+    "category": "Conteúdo",
+    "dependencies": [],
+    "dependencyVersions": {},
+    "registryDependencies": []
+  },
+  {
+    "name": "breadcrumb",
+    "label": "Breadcrumb",
+    "description": "Hierarquia de navegação em páginas.",
+    "category": "Navegação",
+    "dependencies": [],
+    "dependencyVersions": {},
+    "registryDependencies": []
+  },
+  {
+    "name": "bubble",
+    "label": "Bubble",
+    "description": "Balões de conversa com conteúdo e metadados.",
+    "category": "Mensagens",
+    "dependencies": [],
+    "dependencyVersions": {},
+    "registryDependencies": []
+  },
+  {
+    "name": "button",
+    "label": "Button",
+    "description": "Ações com variantes e tamanhos.",
+    "category": "Interação",
+    "dependencies": [
+      "class-variance-authority"
+    ],
+    "dependencyVersions": {},
+    "registryDependencies": []
+  },
+  {
+    "name": "button-group",
+    "label": "Button Group",
+    "description": "Agrupamento de ações relacionadas.",
+    "category": "Interação",
+    "dependencies": [],
+    "dependencyVersions": {},
+    "registryDependencies": []
+  },
+  {
+    "name": "calendar",
+    "label": "Calendar",
+    "description": "Seleção de datas e navegação entre meses.",
+    "category": "Formulários",
+    "dependencies": [
+      "react-day-picker"
+    ],
+    "dependencyVersions": {
+      "react-day-picker": "^9.14.0"
+    },
+    "registryDependencies": []
+  },
+  {
+    "name": "card",
+    "label": "Card",
+    "description": "Blocos de conteúdo com cabeçalho e rodapé.",
+    "category": "Conteúdo",
+    "dependencies": [],
+    "dependencyVersions": {},
+    "registryDependencies": []
+  },
+  {
+    "name": "carousel",
+    "label": "Carousel",
+    "description": "Sequência de slides com controles e teclado.",
+    "category": "Interação",
+    "dependencies": [],
+    "dependencyVersions": {},
+    "registryDependencies": [
+      "button"
+    ]
+  },
+  {
+    "name": "chart",
+    "label": "Chart",
+    "description": "Gráficos responsivos para visualizar dados.",
+    "category": "Dados",
+    "dependencies": [
+      "recharts"
+    ],
+    "dependencyVersions": {
+      "recharts": "^3.10.1"
+    },
+    "registryDependencies": []
+  },
+  {
+    "name": "checkbox",
+    "label": "Checkbox",
+    "description": "Seleção independente com estado intermediário.",
+    "category": "Formulários",
+    "dependencies": [
+      "@radix-ui/react-checkbox",
+      "lucide-react"
+    ],
+    "dependencyVersions": {},
+    "registryDependencies": []
+  },
+  {
+    "name": "collapsible",
+    "label": "Collapsible",
+    "description": "Expansão de conteúdo complementar.",
+    "category": "Interação",
+    "dependencies": [
+      "@radix-ui/react-collapsible"
+    ],
+    "dependencyVersions": {},
+    "registryDependencies": []
+  },
+  {
+    "name": "combobox",
+    "label": "Combobox",
+    "description": "Seleção de opções com busca.",
+    "category": "Formulários",
+    "dependencies": [],
+    "dependencyVersions": {},
+    "registryDependencies": [
+      "button",
+      "command",
+      "popover"
+    ]
+  },
+  {
+    "name": "command",
+    "label": "Command",
+    "description": "Paleta de comandos filtrável.",
+    "category": "Navegação",
+    "dependencies": [
+      "cmdk"
+    ],
+    "dependencyVersions": {
+      "cmdk": "^1.1.1"
+    },
+    "registryDependencies": []
+  },
+  {
+    "name": "context-menu",
+    "label": "Context Menu",
+    "description": "Ações disponíveis pelo menu de contexto.",
+    "category": "Sobreposições",
+    "dependencies": [
+      "@radix-ui/react-context-menu",
+      "lucide-react"
+    ],
+    "dependencyVersions": {},
+    "registryDependencies": []
+  },
+  {
+    "name": "data-table",
+    "label": "Data Table",
+    "description": "Tabela com busca, ordenação e paginação.",
+    "category": "Dados",
+    "dependencies": [],
+    "dependencyVersions": {},
+    "registryDependencies": [
+      "input",
+      "pagination"
+    ]
+  },
+  {
+    "name": "date-picker",
+    "label": "Date Picker",
+    "description": "Campo de data com calendário flutuante.",
+    "category": "Formulários",
+    "dependencies": [],
+    "dependencyVersions": {},
+    "registryDependencies": [
+      "button",
+      "calendar",
+      "popover"
+    ]
+  },
+  {
+    "name": "dialog",
+    "label": "Dialog",
+    "description": "Modal acessível para tarefas focadas.",
+    "category": "Sobreposições",
+    "dependencies": [
+      "@radix-ui/react-dialog",
+      "lucide-react"
+    ],
+    "dependencyVersions": {},
+    "registryDependencies": []
+  },
+  {
+    "name": "direction",
+    "label": "Direction",
+    "description": "Direção de leitura LTR e RTL.",
+    "category": "Layout",
+    "dependencies": [
+      "@radix-ui/react-direction"
+    ],
+    "dependencyVersions": {},
+    "registryDependencies": []
+  },
+  {
+    "name": "drawer",
+    "label": "Drawer",
+    "description": "Painel que abre a partir de uma borda.",
+    "category": "Sobreposições",
+    "dependencies": [],
+    "dependencyVersions": {},
+    "registryDependencies": [
+      "sheet"
+    ]
+  },
+  {
+    "name": "dropdown-menu",
+    "label": "Dropdown Menu",
+    "description": "Menu de ações a partir de um botão.",
+    "category": "Sobreposições",
+    "dependencies": [
+      "@radix-ui/react-dropdown-menu",
+      "lucide-react"
+    ],
+    "dependencyVersions": {},
+    "registryDependencies": []
+  },
+  {
+    "name": "empty",
+    "label": "Empty",
+    "description": "Estados vazios com contexto e uma próxima ação.",
+    "category": "Conteúdo",
+    "dependencies": [],
+    "dependencyVersions": {},
+    "registryDependencies": []
+  },
+  {
+    "name": "field",
+    "label": "Field",
+    "description": "Campos com rótulos, ajuda e erros.",
+    "category": "Formulários",
+    "dependencies": [],
+    "dependencyVersions": {},
+    "registryDependencies": []
+  },
+  {
+    "name": "hover-card",
+    "label": "Hover Card",
+    "description": "Prévia contextual ao passar ou focar.",
+    "category": "Sobreposições",
+    "dependencies": [
+      "@radix-ui/react-hover-card"
+    ],
+    "dependencyVersions": {},
+    "registryDependencies": []
+  },
+  {
+    "name": "input",
+    "label": "Input",
+    "description": "Entrada de texto com estados de foco e desabilitado.",
+    "category": "Formulários",
+    "dependencies": [],
+    "dependencyVersions": {},
+    "registryDependencies": []
+  },
+  {
+    "name": "input-group",
+    "label": "Input Group",
+    "description": "Campos com prefixos, sufixos e ações.",
+    "category": "Formulários",
+    "dependencies": [],
+    "dependencyVersions": {},
+    "registryDependencies": []
+  },
+  {
+    "name": "input-otp",
+    "label": "Input OTP",
+    "description": "Entrada de códigos de verificação.",
+    "category": "Formulários",
+    "dependencies": [
+      "input-otp"
+    ],
+    "dependencyVersions": {
+      "input-otp": "^1.5.0"
+    },
+    "registryDependencies": []
+  },
+  {
+    "name": "item",
+    "label": "Item",
+    "description": "Itens compostos para listas de conteúdo.",
+    "category": "Conteúdo",
+    "dependencies": [],
+    "dependencyVersions": {},
+    "registryDependencies": []
+  },
+  {
+    "name": "kbd",
+    "label": "Kbd",
+    "description": "Representação visual de atalhos de teclado.",
+    "category": "Conteúdo",
+    "dependencies": [],
+    "dependencyVersions": {},
+    "registryDependencies": []
+  },
+  {
+    "name": "label",
+    "label": "Label",
+    "description": "Rótulos associados aos controles.",
+    "category": "Formulários",
+    "dependencies": [],
+    "dependencyVersions": {},
+    "registryDependencies": []
+  },
+  {
+    "name": "marker",
+    "label": "Marker",
+    "description": "Destaques de texto com cor e contraste.",
+    "category": "Conteúdo",
+    "dependencies": [],
+    "dependencyVersions": {},
+    "registryDependencies": []
+  },
+  {
+    "name": "menubar",
+    "label": "Menubar",
+    "description": "Barra de menus com navegação por teclado.",
+    "category": "Navegação",
+    "dependencies": [
+      "@radix-ui/react-menubar",
+      "lucide-react"
+    ],
+    "dependencyVersions": {},
+    "registryDependencies": []
+  },
+  {
+    "name": "message",
+    "label": "Message",
+    "description": "Mensagens com autoria, conteúdo e ações.",
+    "category": "Mensagens",
+    "dependencies": [],
+    "dependencyVersions": {},
+    "registryDependencies": []
+  },
+  {
+    "name": "message-scroller",
+    "label": "Message Scroller",
+    "description": "Histórico com acompanhamento de novas mensagens.",
+    "category": "Mensagens",
+    "dependencies": [],
+    "dependencyVersions": {},
+    "registryDependencies": [
+      "button"
+    ]
+  },
+  {
+    "name": "native-select",
+    "label": "Native Select",
+    "description": "Seleção com o controle nativo do navegador.",
+    "category": "Formulários",
+    "dependencies": [],
+    "dependencyVersions": {},
+    "registryDependencies": []
+  },
+  {
+    "name": "navigation-menu",
+    "label": "Navigation Menu",
+    "description": "Navegação principal com conteúdo expansível.",
+    "category": "Navegação",
+    "dependencies": [
+      "@radix-ui/react-navigation-menu",
+      "lucide-react"
+    ],
+    "dependencyVersions": {},
+    "registryDependencies": []
+  },
+  {
+    "name": "pagination",
+    "label": "Pagination",
+    "description": "Controles para percorrer páginas de resultados.",
+    "category": "Navegação",
+    "dependencies": [],
+    "dependencyVersions": {},
+    "registryDependencies": [
+      "button"
+    ]
+  },
+  {
+    "name": "popover",
+    "label": "Popover",
+    "description": "Conteúdo contextual com posicionamento automático.",
+    "category": "Sobreposições",
+    "dependencies": [
+      "@radix-ui/react-popover"
+    ],
+    "dependencyVersions": {},
+    "registryDependencies": []
+  },
+  {
+    "name": "progress",
+    "label": "Progress",
+    "description": "Progresso de uma operação.",
+    "category": "Feedback",
+    "dependencies": [
+      "@radix-ui/react-progress"
+    ],
+    "dependencyVersions": {},
+    "registryDependencies": []
+  },
+  {
+    "name": "questionnaire",
+    "label": "Questionnaire",
+    "description": "Questionário em etapas com respostas e conclusão.",
+    "category": "Formulários",
+    "dependencies": [],
+    "dependencyVersions": {},
+    "registryDependencies": [
+      "button"
+    ]
+  },
+  {
+    "name": "radio-group",
+    "label": "Radio Group",
+    "description": "Seleção exclusiva entre opções.",
+    "category": "Formulários",
+    "dependencies": [
+      "@radix-ui/react-radio-group"
+    ],
+    "dependencyVersions": {},
+    "registryDependencies": []
+  },
+  {
+    "name": "resizable",
+    "label": "Resizable",
+    "description": "Painéis cujo tamanho pode ser ajustado.",
+    "category": "Layout",
+    "dependencies": [
+      "lucide-react",
+      "react-resizable-panels"
+    ],
+    "dependencyVersions": {
+      "react-resizable-panels": "^4.14.2"
+    },
+    "registryDependencies": []
+  },
+  {
+    "name": "scroll-area",
+    "label": "Scroll Area",
+    "description": "Área rolável com barras personalizadas.",
+    "category": "Layout",
+    "dependencies": [
+      "@radix-ui/react-scroll-area"
+    ],
+    "dependencyVersions": {},
+    "registryDependencies": []
+  },
+  {
+    "name": "search",
+    "label": "Search",
+    "description": "Busca com atalho e ação para limpar.",
+    "category": "Formulários",
+    "dependencies": [
+      "lucide-react"
+    ],
+    "dependencyVersions": {},
+    "registryDependencies": []
+  },
+  {
+    "name": "select",
+    "label": "Select",
+    "description": "Lista de seleção acessível com teclado.",
+    "category": "Formulários",
+    "dependencies": [
+      "@radix-ui/react-select",
+      "lucide-react"
+    ],
+    "dependencyVersions": {},
+    "registryDependencies": []
+  },
+  {
+    "name": "separator",
+    "label": "Separator",
+    "description": "Divisores horizontais e verticais.",
+    "category": "Layout",
+    "dependencies": [],
+    "dependencyVersions": {},
+    "registryDependencies": []
+  },
+  {
+    "name": "sheet",
+    "label": "Sheet",
+    "description": "Painel lateral para conteúdo complementar.",
+    "category": "Sobreposições",
+    "dependencies": [
+      "@radix-ui/react-dialog",
+      "lucide-react"
+    ],
+    "dependencyVersions": {},
+    "registryDependencies": []
+  },
+  {
+    "name": "sidebar",
+    "label": "Sidebar",
+    "description": "Navegação lateral com versão móvel.",
+    "category": "Navegação",
+    "dependencies": [],
+    "dependencyVersions": {},
+    "registryDependencies": [
+      "button",
+      "dialog"
+    ]
+  },
+  {
+    "name": "skeleton",
+    "label": "Skeleton",
+    "description": "Estrutura visual durante o carregamento.",
+    "category": "Feedback",
+    "dependencies": [],
+    "dependencyVersions": {},
+    "registryDependencies": []
+  },
+  {
+    "name": "slider",
+    "label": "Slider",
+    "description": "Ajuste de valores em um intervalo.",
+    "category": "Formulários",
+    "dependencies": [
+      "@radix-ui/react-slider"
+    ],
+    "dependencyVersions": {},
+    "registryDependencies": []
+  },
+  {
+    "name": "spinner",
+    "label": "Spinner",
+    "description": "Indicador de atividade com descrição acessível.",
+    "category": "Feedback",
+    "dependencies": [],
+    "dependencyVersions": {},
+    "registryDependencies": []
+  },
+  {
+    "name": "switch",
+    "label": "Switch",
+    "description": "Alternância entre dois estados.",
+    "category": "Formulários",
+    "dependencies": [
+      "@radix-ui/react-switch"
+    ],
+    "dependencyVersions": {},
+    "registryDependencies": []
+  },
+  {
+    "name": "table",
+    "label": "Table",
+    "description": "Tabela semântica com cabeçalho e legenda.",
+    "category": "Dados",
+    "dependencies": [],
+    "dependencyVersions": {},
+    "registryDependencies": []
+  },
+  {
+    "name": "tabs",
+    "label": "Tabs",
+    "description": "Conteúdo organizado em abas.",
+    "category": "Navegação",
+    "dependencies": [
+      "@radix-ui/react-tabs"
+    ],
+    "dependencyVersions": {},
+    "registryDependencies": []
+  },
+  {
+    "name": "textarea",
+    "label": "Textarea",
+    "description": "Entrada de texto em múltiplas linhas.",
+    "category": "Formulários",
+    "dependencies": [],
+    "dependencyVersions": {},
+    "registryDependencies": []
+  },
+  {
+    "name": "toast",
+    "label": "Toast",
+    "description": "Notificações temporárias com ação opcional.",
+    "category": "Feedback",
+    "dependencies": [
+      "@radix-ui/react-toast",
+      "lucide-react"
+    ],
+    "dependencyVersions": {},
+    "registryDependencies": []
+  },
+  {
+    "name": "toggle",
+    "label": "Toggle",
+    "description": "Botão com estado pressionado.",
+    "category": "Interação",
+    "dependencies": [
+      "@radix-ui/react-toggle",
+      "class-variance-authority"
+    ],
+    "dependencyVersions": {},
+    "registryDependencies": []
+  },
+  {
+    "name": "toggle-group",
+    "label": "Toggle Group",
+    "description": "Conjunto de botões selecionáveis.",
+    "category": "Interação",
+    "dependencies": [
+      "@radix-ui/react-toggle-group",
+      "class-variance-authority"
+    ],
+    "dependencyVersions": {},
+    "registryDependencies": [
+      "toggle"
+    ]
+  },
+  {
+    "name": "tooltip",
+    "label": "Tooltip",
+    "description": "Ajuda breve ao passar ou focar.",
+    "category": "Sobreposições",
+    "dependencies": [
+      "@radix-ui/react-tooltip"
+    ],
+    "dependencyVersions": {},
+    "registryDependencies": []
+  },
+  {
+    "name": "typography",
+    "label": "Typography",
+    "description": "Hierarquia de títulos, parágrafos e citações.",
+    "category": "Conteúdo",
+    "dependencies": [],
+    "dependencyVersions": {},
+    "registryDependencies": []
+  }
+]
