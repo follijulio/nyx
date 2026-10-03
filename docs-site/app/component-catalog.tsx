@@ -24,7 +24,7 @@ export function ComponentCatalog() {
   const [tab, setTab] = useState<"preview" | "usage" | "source">("preview");
   const entry = components.find((item) => item.name === selected) ?? components[0];
   const filtered = components.filter((item) => (!category || item.category === category) && `${item.label} ${item.name} ${item.description}`.toLocaleLowerCase("pt-BR").includes(query.toLocaleLowerCase("pt-BR")));
-  const command = `npx @nyx-ui/cli add ${entry.name}`;
+  const command = `npx nyx-brutal-ui add ${entry.name}`;
   const code = tab === "source" ? entry.source : examples[entry.name];
 
   return <div>

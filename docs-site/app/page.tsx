@@ -94,7 +94,7 @@ export default function HomePage() {
           </a>
         </div>
         <div className="mt-8 max-w-2xl">
-          <CodeRow value="npx @nyx-ui/cli init" />
+          <CodeRow value="npx nyx-brutal-ui init" />
         </div>
       </section>
 
@@ -150,18 +150,18 @@ export default function HomePage() {
             .
           </p>
           <div className="mt-6 grid gap-3 sm:max-w-2xl">
-            <CodeRow value="npx @nyx-ui/cli init" />
-            <CodeRow value="npx @nyx-ui/cli add button card input" />
+            <CodeRow value="npx nyx-brutal-ui init" />
+            <CodeRow value="npx nyx-brutal-ui add button card input" />
           </div>
           <div className="mt-6 grid gap-5 border-t-2 border-ink pt-5 md:grid-cols-2">
             <div>
               <h3 className="font-black">Outros gerenciadores</h3>
               <p className="mt-1 text-sm leading-6 text-muted-foreground">
-                Bun: <code>bunx @nyx-ui/cli add button</code>
+                Bun: <code>bunx nyx-brutal-ui add button</code>
                 <br />
-                pnpm: <code>pnpm dlx @nyx-ui/cli add button</code>
+                pnpm: <code>pnpm dlx nyx-brutal-ui add button</code>
                 <br />
-                Yarn: <code>yarn dlx @nyx-ui/cli add button</code>
+                Yarn: <code>yarn dlx nyx-brutal-ui add button</code>
               </p>
             </div>
             <div>
@@ -184,8 +184,8 @@ export default function HomePage() {
               Picker.
             </p>
             <div className="mt-3 grid gap-3">
-              <CodeRow value="npx @nyx-ui/cli list" />
-              <CodeRow value="npx @nyx-ui/cli add --all" />
+              <CodeRow value="npx nyx-brutal-ui list" />
+              <CodeRow value="npx nyx-brutal-ui add --all" />
             </div>
             <p className="mt-3 text-sm text-muted-foreground">
               A CLI detecta npm, pnpm, Yarn ou Bun pelo lockfile e pede

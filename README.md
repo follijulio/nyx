@@ -16,7 +16,7 @@ nyx add date-picker data-table questionnaire
 nyx add --all
 ```
 
-After publishing, `npx @nyx-ui/cli init` and `bunx @nyx-ui/cli add button` run the executable defined in `package.json`. Installed files are placed in `src/components/ui` and do not depend on Nyx at runtime.
+After publishing, `npx nyx-brutal-ui init` and `bunx nyx-brutal-ui add button` run the executable defined in `package.json`. Installed files are placed in `src/components/ui` and do not depend on Nyx at runtime.
 
 `init` creates `nyx.json`, appends a marked block to the global CSS without replacing existing styles, and creates `utils.ts`/`tailwind.config.ts` only when they do not already exist. In projects with an existing Tailwind config, preserve its contents and merge the extensions from `registry/tailwind.config.ts`. Tailwind 4 receives CSS tokens in the theme; `shadow-nyx` and `shadow-nyx-sm` are extensions for Tailwind 3 config files.
 
@@ -36,7 +36,7 @@ The documentation is a Next.js App Router app in `docs-site/`, built with React,
 
 ## Publishing
 
-The package name `@nyx-ui/cli` requires control of the npm `nyx-ui` scope. If that scope is not yours, change `name` in `package.json` to `@YOUR_NPM_USERNAME/nyx` and update the install commands in this README and `docs-site/app/page.tsx`. Before releasing, run `npm pack --dry-run` and install the resulting package in a separate sample app. Publish from this directory with `npm login` followed by `npm publish --access public`.
+The package name is `nyx-brutal-ui`. Before releasing, run `npm pack --dry-run` and install the resulting package in a separate sample app. Publish from this directory with `npm login --auth-type=web` followed by `npm publish --access public`, then complete the two-factor authentication prompt in the browser.
 
 ---
 
@@ -58,7 +58,7 @@ nyx add date-picker data-table questionnaire
 nyx add --all
 ```
 
-Depois de publicar, `npx @nyx-ui/cli init` e `bunx @nyx-ui/cli add button` executam a CLI definida em `package.json`. Os arquivos instalados ficam em `src/components/ui` e não dependem do Nyx em runtime.
+Depois de publicar, `npx nyx-brutal-ui init` e `bunx nyx-brutal-ui add button` executam a CLI definida em `package.json`. Os arquivos instalados ficam em `src/components/ui` e não dependem do Nyx em runtime.
 
 `init` cria `nyx.json`, anexa um bloco marcado ao CSS global sem substituir estilos existentes e cria `utils.ts`/`tailwind.config.ts` apenas quando ainda não existem. Em projetos com uma configuração Tailwind existente, preserve seu conteúdo e mescle as extensões de `registry/tailwind.config.ts`. O Tailwind 4 recebe tokens CSS no tema; `shadow-nyx` e `shadow-nyx-sm` são extensões para arquivos de configuração do Tailwind 3.
 
@@ -78,7 +78,7 @@ A documentação é um app Next.js com App Router em `docs-site/`, feito com Rea
 
 ## Publicação
 
-O nome `@nyx-ui/cli` exige controle do escopo `nyx-ui` no npm. Se o escopo não for seu, altere `name` em `package.json` para `@SEU_USUARIO_NPM/nyx` e atualize os comandos deste README e de `docs-site/app/page.tsx`. Antes de publicar, rode `npm pack --dry-run` e instale o pacote gerado em um app de exemplo. Publique a partir desta pasta com `npm login` e `npm publish --access public`.
+O nome do pacote é `nyx-brutal-ui`. Antes de publicar, rode `npm pack --dry-run` e instale o pacote gerado em um app de exemplo. Publique a partir desta pasta com `npm login --auth-type=web` e `npm publish --access public`, concluindo a autenticação em dois fatores no navegador.
 
 ## Registry development / Desenvolvimento do registry
 

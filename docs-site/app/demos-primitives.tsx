@@ -162,7 +162,7 @@ import { Button } from "@/components/ui/button";
   "hover-card": `import { HoverCard, HoverCardTrigger, HoverCardContent } from "@/components/ui/hover-card";
 
 <HoverCard>
-  <HoverCardTrigger href="https://github.com">@nyx-ui</HoverCardTrigger>
+  <HoverCardTrigger href="https://github.com">@follijulio</HoverCardTrigger>
   <HoverCardContent>
     <p className="font-bold">Nyx UI</p>
     <p>Componentes React com personalidade.</p>
@@ -837,7 +837,7 @@ export function PrimitiveDemo({ name }: { name: string }) {
             href="#inicio"
             className="border-b-2 border-border text-base font-black outline-none focus-visible:ring-2 focus-visible:ring-ring"
           >
-            @nyx-ui ↗
+            @follijulio ↗
           </HoverCardTrigger>
           <HoverCardContent>
             <div className="flex items-center gap-3">
@@ -1028,7 +1028,7 @@ export function PrimitiveDemo({ name }: { name: string }) {
           <Typography variant="blockquote">
             Faça algo que tenha a sua cara.
           </Typography>
-          <Typography variant="code">npx @nyx-ui/cli init</Typography>
+          <Typography variant="code">npx nyx-brutal-ui init</Typography>
         </div>
       );
     default:
